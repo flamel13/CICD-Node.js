@@ -33,7 +33,7 @@ jobs:
 
     steps:
     - name: SSH and deploy node app
-      uses: flamel13/ssh-action@main
+      uses: flamel13/CICD-Node.js@main
       with:
         host: ${{ secrets.SSH_HOST }}
         username: ${{ secrets.SSH_USERNAME }}
