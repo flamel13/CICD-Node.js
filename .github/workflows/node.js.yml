@@ -3,10 +3,10 @@ name: Node Github CI
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
-  test:
+  test: 
 
     runs-on: ubuntu-latest
 
