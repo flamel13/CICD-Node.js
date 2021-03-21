@@ -1,0 +1,26 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "nodejs ci/cd",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/* --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flamel13/CICD-Node.js.git"
+  },
+  "author": "Michele Contu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flamel13/CICD-Node.js/issues"
+  },
+  "homepage": "https://github.com/flamel13/CICD-Node.js#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.2",
+    "supertest": "^6.1.3"
+  }
+}
